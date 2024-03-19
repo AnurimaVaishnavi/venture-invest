@@ -1,0 +1,28 @@
+#base{
+        background-color: #e9ecef;
+}
+#prof{
+        width:25%;
+        height: 100%;
+        margin-left: 2%;
+        margin-top: 10px;
+}
+#feed{
+        width:50%;
+        height: 100%;
+        margin-top: 10px;
+}
+
+#others{
+        width:25%;
+        height: 100%;
+        margin-right: 2%;
+        margin-top: 10px;
+}
+
+.hstack {
+    display: flex;
+    flex-direction: row;
+    align-items:unset !important;
+    align-self: stretch;
+}

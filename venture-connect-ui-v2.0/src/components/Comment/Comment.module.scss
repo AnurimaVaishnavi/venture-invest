@@ -1,0 +1,40 @@
+.comment {
+    margin-top: 3%;
+    margin-left: -3.58%;
+    margin-right: 4%;
+    display: grid;
+  
+    .header {
+      display: flex;
+      align-items: center;
+  
+      .avatar {
+        vertical-align: top;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+  
+      .info {
+        display: flex;
+        align-items: center;
+        .username {
+          font-size: 0.875em;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-right: 1px;
+        }
+        .time {
+          font-size: 0.875em;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-left: 1px;
+        }
+      }
+    }
+  
+    .comment-body {
+      margin-left: 3px;
+      font-size: 1em;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+  

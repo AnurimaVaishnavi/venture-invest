@@ -1,0 +1,27 @@
+#base-post{
+    background-color: white;
+    border-radius: 16px;
+    width: 100%;
+    /* height: 60%; */
+    padding-bottom: 10px;
+    margin-top: 30px;
+    
+}
+#r1c1{
+        /* align-content: end; */
+    /* padding-left: 0px; */
+    align-items: start;
+    /* align-self: start; */
+    display: flex;
+    padding-top: 10px;
+    /* gap: 10pt;*/
+}
+#r1c2{
+    display: contents;
+}
+#r1c1t{
+    padding-top: 10px; 
+}
+#comments{
+    width: 100%;
+}

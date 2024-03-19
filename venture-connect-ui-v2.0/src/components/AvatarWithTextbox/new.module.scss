@@ -1,0 +1,52 @@
+.top{
+    background-color: white;
+    padding-bottom: 10px;
+    &.border{
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    }
+    .searchDiv{
+        padding: 10px;
+        display: flex;
+        .image {
+            width: 54px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 12px;
+        }
+        .vl {
+            margin-top: -60px;
+            margin-left: 37px;
+            border-left: 5px solid green;
+            height: 100px;
+            align-self: flex-end;
+        }  
+        .postInput{
+            width: 90%;
+            resize: none;
+            font-size: 16px;
+            cursor: pointer;
+            padding-left: 10px;
+            border: 1px solid silver;
+            font-weight: 500;
+        }
+        .postInput:hover {
+            background-color: #ebebeb;
+            transition: all ease 0.5s;
+        }
+        .postDisplay {
+            width: 90%;
+            resize: none;
+            font-size: 16px;
+            cursor: pointer;
+            padding-left: 10px;
+            border: 1px solid silver;
+            font-weight: 500;
+        }
+    }
+    .buttons{
+        height: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
